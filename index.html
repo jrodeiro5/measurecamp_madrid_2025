@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Rodeiro | MeasureCamp Madrid 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ayesa-blue: #005C96;
+            --ayesa-dark-blue: #003A5D;
+            --measurecamp-orange: #FF6B35;
+            --measurecamp-yellow: #FFD23F;
+            --white: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--ayesa-dark-blue) 0%, var(--measurecamp-orange) 100%);
+            min-height: 100vh;
+            color: var(--white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .measurecamp-logo {
+            height: 150px;
+            transition: transform 0.3s ease;
+        }
+
+        .measurecamp-logo:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideUp 0.5s ease-out forwards;
+        }
+
+        .section h2 {
+            color: var(--measurecamp-yellow);
+            margin-bottom: 1.5rem;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--ayesa-dark-blue);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            opacity: 0;
+            animation: fadeIn 1s ease-in 0.5s forwards;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .ayesa-logo {
+            height: 40px;
+            transition: transform 0.3s ease;
+            opacity: 0.8;
+        }
+
+        .ayesa-logo:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="public/logo_measurecamp_madrid.png" alt="MeasureCamp Madrid" class="measurecamp-logo">
+            </div>
+            <h1>Javier Rodeiro<br>MeasureCamp Madrid 2025</h1>
+        </header>
+
+        <section class="section" style="animation-delay: 0.2s">
+            <h2>Personal Links</h2>
+            <div class="link-grid">
+                <a href="https://javierrodeiro.com/" class="link-card" target="_blank" rel="noopener">
+                    🌐 Personal Website
+                </a>
+                <a href="https://www.linkedin.com/in/javier-rodeiro-rodriguez/" class="link-card" target="_blank" rel="noopener">
+                    💼 LinkedIn Profile
+                </a>
+                <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7290366362223284224" class="link-card" target="_blank" rel="noopener">
+                    📬 Newsletter
+                </a>
+            </div>
+        </section>
+
+        <section class="section" style="animation-delay: 0.4s">
+            <h2>Projects</h2>
+            <div class="link-grid">
+                <a href="https://github.com/jrodeiro5/FindingExcellence" class="link-card" target="_blank" rel="noopener">
+                    🚀 Finding Excellence
+                </a>
+                <a href="https://searchbravely.vercel.app/" class="link-card" target="_blank" rel="noopener">
+                    🔍 Search Bravely
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <img src="https://www.ayesa.com/wp-content/themes/ayesa/images/logo.svg" alt="Ayesa" class="ayesa-logo">
+            <p>© 2025 Javier Rodeiro & Ayesa | Made for MeasureCamp Madrid 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
