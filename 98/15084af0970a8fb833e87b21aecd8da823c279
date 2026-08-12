@@ -1,0 +1,30 @@
+almanac/architecture/tooling.md
+  s_7339986801ccaa::t_11d12a308574a5 74
+almanac/getting-started.md
+  s_1c841a3b2d643a::t_3dbc856284dec8 30
+  s_7339986801ccaa::t_1bff4b64e7571d 69-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9815084af0970a8fb833e87b21aecd8da823c279",
+  "prompts": {},
+  "sessions": {
+    "s_1c841a3b2d643a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff1e0-8b68-7473-b44b-75b17a0dfa53",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    },
+    "s_7339986801ccaa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff78a-c5af-7e42-b66c-88b8490dc4b9",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
