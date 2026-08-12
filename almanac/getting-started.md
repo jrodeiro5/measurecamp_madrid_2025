@@ -27,7 +27,7 @@ sources:
 
 This repository is a single static HTML page used as a link-in-bio resource hub for Javier Rodeiro's talk at MeasureCamp Madrid 2025. The talk topic is Model Context Protocol (MCP). The page links to personal profiles, projects, and presentation resources.
 
-The repository contains one source file (`index.html`[@index-html]), a GitNexus code intelligence index[@gitnexus-meta], a SonarQube configuration, a gitleaks pre-commit hook, and OpenWiki documentation. There is no build step, no framework, and no package manager.
+The repository contains one source file (`index.html`[@index-html]), a GitNexus code intelligence index (see AGENTS.md[@agents-md]), a SonarQube configuration, a gitleaks pre-commit hook, and OpenWiki documentation. There is no build step, no framework, and no package manager.
 
 ## What to Read
 
@@ -66,4 +66,12 @@ A gitleaks pre-commit hook scans staged changes for secrets before each commit. 
 
 ### OpenWiki
 
-OpenWiki generates documentation from the repository. The `openwiki/quickstart.md` file documents the static HTML page[@openwiki-quickstart]. A GitHub Actions workflow runs OpenWiki daily at 08:00 UTC and on manual dispatch.
+OpenWiki generates documentation from the repository. The `openwiki/quickstart.md` file documents the static HTML page[@openwiki-quickstart]. The `openwiki/.last-update.json` file contains update metadata (model: `mimo-v2.5-pro`, command: `init`).
+
+No scheduled CI workflow exists in this repository — the `.github/workflows/` directory is empty.
+
+## Related Pages
+
+- For details on how this page is structured and implemented, see [Page Structure](architecture/page-structure).
+- For understanding the tooling layered on this page, see [Tooling](architecture/tooling).
+- For understanding why this page exists, see [Model Context Protocol](concepts/model-context-protocol).

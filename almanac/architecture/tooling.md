@@ -71,7 +71,7 @@ A gitleaks pre-commit hook scans staged changes for secrets before each commit. 
 
 OpenWiki generates documentation from the repository. The `openwiki/quickstart.md` file documents the static HTML page[@openwiki-quickstart]. The `openwiki/.last-update.json` file contains update metadata (model: `mimo-v2.5-pro`, command: `init`)[@openwiki-last-update].
 
-A GitHub Actions workflow runs OpenWiki daily at 08:00 UTC and on manual dispatch, using OpenRouter with the `z-ai/glm-5.2` model and opening PRs via `peter-evans/create-pull-request`.
+No scheduled CI workflow exists in this repository. The `.github/workflows/` directory is empty.
 
 ## Related Pages
 
