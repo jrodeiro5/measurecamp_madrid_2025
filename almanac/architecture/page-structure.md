@@ -10,7 +10,7 @@ sources:
 
 # Page Structure
 
-The repository contains a single static HTML file (`index.html`) that renders a styled link directory. The page uses no JavaScript, no build step, no framework, and no package manager. It is designed to be directly editable and deployable as a static site.
+The repository contains a single static HTML file (`index.html`) that renders a styled link directory. The page uses no JavaScript, no build step, no framework, and no package manager. This shape is the result of the [Static HTML Choice](../decisions/static-html-choice), documented there with its context and consequences. It is designed to be directly editable and deployable as a static site.
 
 ## Layout
 
@@ -73,4 +73,5 @@ The CSS design is defined in `index.html`[@index-html], using custom properties 
 ## Related Pages
 
 - For understanding the tooling layered on this page, see [Tooling](tooling).
+- For the choice to ship a single static HTML file, see [Static HTML Choice](../decisions/static-html-choice).
 - For understanding why this page exists, see [Model Context Protocol](../concepts/model-context-protocol).
