@@ -1,0 +1,23 @@
+almanac/getting-started.md
+  s_c1e15c7d63bb3e::t_45baabbd26f3f9 3,22,24,28-31,35-40
+almanac/README.md
+  s_c1e15c7d63bb3e::t_04001652ba619e 1-40
+almanac/architecture/page-structure.md
+  s_c1e15c7d63bb3e::t_04001652ba619e 13,76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "574d1ad12c6099daf34d99cb2683af24c60be44a",
+  "prompts": {},
+  "sessions": {
+    "s_c1e15c7d63bb3e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a028da-289e-7060-8174-cf71990ef53c",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
