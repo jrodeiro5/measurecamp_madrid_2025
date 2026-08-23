@@ -1,0 +1,29 @@
+topics:
+  - slug: concepts
+    title: Concepts
+    description: Core vocabulary and mental models for this codebase
+    parents: []
+  - slug: navigation
+    title: Navigation
+    description: The wiki landing page and getting-started routing page
+    parents: []
+  - slug: architecture
+    title: Architecture
+    description: System structure, design decisions, and implementation details
+    parents: []
+  - slug: decisions
+    title: Decisions
+    description: Architecturally meaningful choices and their consequences
+    parents: []
+  - slug: model-context-protocol
+    title: Model Context Protocol
+    description: MCP as the subject of this repository's talk and resource hub
+    parents: [concepts]
+  - slug: static-html
+    title: Static HTML
+    description: The choice to use a single static HTML file without build tooling
+    parents: [decisions]
+  - slug: tooling
+    title: Tooling
+    description: GitNexus, SonarQube, gitleaks, and OpenWiki integrations
+    parents: [architecture]

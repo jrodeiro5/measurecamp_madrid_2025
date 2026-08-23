@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 summary: The front door to the wiki - explains what this repository is and where to start reading.
-topics: [concepts]
+topics: [navigation]
 sources:
   - id: index-html
     type: file

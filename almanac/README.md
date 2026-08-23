@@ -1,6 +1,6 @@
 ---
 title: CodeAlmanac Wiki
-topics: [concepts]
+topics: [navigation]
 sources: []
 ---
 
