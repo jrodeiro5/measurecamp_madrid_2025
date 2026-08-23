@@ -1,0 +1,33 @@
+almanac/getting-started.md
+  s_833dcb1fe30278::t_c886079db04edd 4
+almanac/README.md
+  s_833dcb1fe30278::t_c886079db04edd 3
+almanac/topics.yaml
+  s_0421b50d0bdac8::t_47b89921f24085 5,10-29
+  s_833dcb1fe30278::t_c886079db04edd 6-9
+  s_833dcb1fe30278::t_86531b3df7699c 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a1af05ae02915c423220e7a2213e9767b9040dad",
+  "prompts": {},
+  "sessions": {
+    "s_0421b50d0bdac8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fbee3-e04e-7782-aac3-a6c083059c0e",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    },
+    "s_833dcb1fe30278": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02e86-d806-7191-8f46-cccb2e6d08b4",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
