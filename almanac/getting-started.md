@@ -30,11 +30,4 @@ The repository contains one source file plus configuration and tooling metadata:
 - For what Model Context Protocol (MCP) is and why this repository exists, read [Model Context Protocol](concepts/model-context-protocol).
 - For the choice to ship a single static HTML file, read [Static HTML Choice](decisions/static-html-choice).
 
-## Related Pages
-
-- [Page Structure](architecture/page-structure)
-- [Tooling](architecture/tooling)
-- [Model Context Protocol](concepts/model-context-protocol)
-- [Static HTML Choice](decisions/static-html-choice)
-
 This repository is hosted as a static site and branded with Ayesa and MeasureCamp Madrid visuals.
