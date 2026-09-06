@@ -32,7 +32,7 @@ The page defines a small set of CSS custom properties for theming:
 
 | Variable | Value | Usage |
 |----------|-------|-------|
-| `--ayesa-blue` | `#005C96` | Gradient anchor |
+| `--ayesa-blue` | `#005C96` | Defined but unused by the gradient |
 | `--ayesa-dark-blue` | `#003A5D` | Gradient start, link card text |
 | `--measurecamp-orange` | `#FF6B35` | Gradient end |
 | `--measurecamp-yellow` | `#FFD23F` | Section headings |
@@ -53,7 +53,7 @@ Two CSS keyframe animations control entry effects:
 - `fadeIn` — Fades elements from opacity 0 to 1 over 1 second
 - `slideUp` — Slides elements up from translateY(20px) to 0 with staggered delays
 
-The header fades in, while each section slides up with incremental delays (0.2s, 0.4s, 0.6s).
+The header fades in, while each section slides up with incremental delays (0.2s, 0.4s, 0.6s). The footer also fades in, delayed 0.5s.
 
 ### Responsive Layout
 
