@@ -6,35 +6,18 @@ sources: []
 
 # CodeAlmanac Wiki
 
-This is the living wiki for this repository. It records the durable knowledge
-the code cannot say: decisions, flows, invariants, incidents, gotchas, and
-project context that future agents should not rediscover from scratch.
+This is the wiki for this repository. It records durable knowledge about a
+single static HTML page (`index.html`) that serves as a link-in-bio resource
+hub for a Model Context Protocol talk at MeasureCamp Madrid 2025.
 
 ## Where to Start
 
-- Read [Getting Started](getting-started) for an overview of this repository and where to begin.
-- Browse the [Model Context Protocol](concepts/model-context-protocol) concept, plus the [Page Structure](architecture/page-structure) and [Tooling](architecture/tooling) architecture pages.
+- Read [Getting Started](getting-started) for what this repository is and where to begin.
+- Browse the [Model Context Protocol](concepts/model-context-protocol) concept, the [Page Structure](architecture/page-structure) and [Tooling](architecture/tooling) architecture pages, and the [Static HTML Choice](decisions/static-html-choice).
 
-## Notability Bar
+## What This Wiki Covers
 
-Write a page when it preserves non-obvious knowledge that will help a future
-agent work safely in this codebase.
-
-Good pages explain:
-
-- a decision that took research or trial-and-error
-- a cross-file flow
-- an invariant or gotcha not visible from one file
-- an external dependency as this repo uses it
-- a product or operational constraint that shapes future work
-
-Do not write pages that restate nearby code.
-
-## Topic Taxonomy
-
-Topics live in `topics.yaml`. Pages are Markdown files directly under
-`almanac/`, including nested folders.
-
-## Links
-
-Use normal Markdown links between pages. Put file evidence in `sources:`.
+Pages here record knowledge not visible from a single file: the decision to
+ship one static HTML file, how that page is structured and styled, and the
+tooling layered on top (GitNexus, SonarQube, gitleaks, OpenWiki). Generic
+CodeAlmanac conventions are documented in AGENTS.md and are not repeated here.
