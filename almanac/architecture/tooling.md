@@ -76,3 +76,4 @@ No scheduled CI workflow exists in this repository. The `.github/workflows/` dir
 ## Related Pages
 
 - For understanding the HTML page these tools operate on, see [Page Structure](../architecture/page-structure).
+- For the decision to ship that page as a single static HTML file, see [Static HTML Choice](../decisions/static-html-choice).
