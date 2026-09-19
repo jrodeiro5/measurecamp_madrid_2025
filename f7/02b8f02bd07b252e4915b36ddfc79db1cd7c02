@@ -1,0 +1,19 @@
+assets/logo.svg
+  s_ae34bb2dad814b::t_0cb53c6ac62a58 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f702b8f02bd07b252e4915b36ddfc79db1cd7c02",
+  "prompts": {},
+  "sessions": {
+    "s_ae34bb2dad814b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f450bf0efffexouhPCFU8L4a9X",
+        "model": "muse-spark-1.3-contributor"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
