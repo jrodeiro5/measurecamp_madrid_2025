@@ -36,7 +36,7 @@ GitNexus provides code intelligence for the repository. It indexes the codebase 
 
 ### Index State
 
-The current index contains 85 symbols, 80 relationships, and 0 execution flows. The index is stored in `.gitnexus/` and refreshed by running `node .gitnexus/run.cjs analyze` from the repository root[@gitnexus-meta].
+The index stores the repository as a knowledge graph of symbols (nodes) and their relationships (edges), plus zero execution flows. Its node and edge counts grow as files are added or changed, so they drift over time and should not be read as fixed values. The index is stored in `.gitnexus/` and refreshed by running `node .gitnexus/run.cjs analyze --index-only` from the repository root[@gitnexus-meta].
 
 ### Runner Script
 
