@@ -1,0 +1,19 @@
+almanac/architecture/tooling.md
+  s_b6ce9ddb691594::t_c842ac2f35b85d 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "03319c455549faad1da11bed3fef7a9dff552a5a",
+  "prompts": {},
+  "sessions": {
+    "s_b6ce9ddb691594": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c2d7-6dda-7cc1-8f4d-d6f3528fdaf3",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
