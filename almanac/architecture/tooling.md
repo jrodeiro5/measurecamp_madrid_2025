@@ -69,7 +69,7 @@ A gitleaks pre-commit hook scans staged changes for secrets before each commit. 
 
 ## OpenWiki
 
-OpenWiki generates documentation from the repository. The `openwiki/quickstart.md` file documents the static HTML page[@openwiki-quickstart]. The `openwiki/.last-update.json` file contains update metadata (model: `mimo-v2.5-pro`, command: `init`)[@openwiki-last-update].
+OpenWiki generates documentation from the repository. The `openwiki/quickstart.md` file documents the static HTML page[@openwiki-quickstart]. The `openwiki/.last-update.json` file contains update metadata (model: `xsub_mimo-v2.5`, command: `update`)[@openwiki-last-update].
 
 No scheduled CI workflow exists in this repository. The `.github/workflows/` directory is empty.
 
