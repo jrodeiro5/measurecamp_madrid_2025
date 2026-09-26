@@ -40,11 +40,17 @@ The index stores the repository as a knowledge graph of symbols (nodes) and thei
 
 ### Runner Script
 
-The `.gitnexus/run.cjs` file is a self-contained CJS script that resolves the best available command-line runner at execution time[@gitnexus-run]. It checks for:
+The `.gitnexus/run.cjs` file is a self-contained CJS script that resolves the best available command-line runner at execution time[@gitnexus-run]. It walks a version-gated ladder:
 
-1. A globally installed `gitnexus` on PATH
-2. `pnpm` with `dlx` (with `--allow-build` flags for native dependencies)
-3. `npx` as a fallback
+1. A globally installed `gitnexus` on PATH (best — no install step)
+2. npm 11+ with `pnpm` on PATH → `pnpm --allow-build=… dlx` (avoids the npx arborist crash and the pnpm 10+ ignored-build-script failure)
+3. npm 11+ without `pnpm` but with `bunx` → `bunx`
+4. npm < 11 with `npm` on PATH → `npx`
+5. `pnpm` only → `pnpm --allow-build=… dlx`
+6. a bun-only machine (npm, npx, pnpm all absent) → `bunx`
+7. last resort → `npx`
+
+The ladder is version-gated because a Node toolchain is no longer assumed: on a bun-only machine every Node-based rung resolves to `npx`, which cannot run, so the two `bunx` rungs were added. Each `bunx` rung gates on `bunx` actually running, not merely existing on PATH. The `--allow-build` flags must precede the `dlx` token, because pnpm < 10.14 parses flags placed after `dlx` as package specs. PATH detection is spawn-free.
 
 The script is regenerated on every `gitnexus analyze` run and is gitignored.
 
