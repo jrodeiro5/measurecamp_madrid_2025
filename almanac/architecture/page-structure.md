@@ -32,7 +32,7 @@ The page defines a small set of CSS custom properties for theming:
 
 | Variable | Value | Usage |
 |----------|-------|-------|
-| `--ayesa-blue` | `#005C96` | Defined but unused by the gradient |
+| `--ayesa-blue` | `#005C96` | Defined but unused |
 | `--ayesa-dark-blue` | `#003A5D` | Gradient start, link card text |
 | `--measurecamp-orange` | `#FF6B35` | Gradient end |
 | `--measurecamp-yellow` | `#FFD23F` | Section headings |
