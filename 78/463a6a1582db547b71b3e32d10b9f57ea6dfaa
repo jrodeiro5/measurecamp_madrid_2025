@@ -1,0 +1,19 @@
+almanac/architecture/page-structure.md
+  s_f234f462df3c82::t_91426085b58a4f 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "78463a6a1582db547b71b3e32d10b9f57ea6dfaa",
+  "prompts": {},
+  "sessions": {
+    "s_f234f462df3c82": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11a50-b6b2-7b02-a886-0003cba059aa",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "jrodeiro5 <jrodeiro.dev@gmail.com>"
+    }
+  }
+}
