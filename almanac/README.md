@@ -1,13 +1,16 @@
 ---
 title: CodeAlmanac Wiki
 topics: [navigation]
-sources: []
+sources:
+  - id: index-html
+    type: file
+    path: index.html
 ---
 
 # CodeAlmanac Wiki
 
 This is the wiki for this repository. It records durable knowledge about a
-single static HTML page (`index.html`) that serves as a link-in-bio resource
+single static HTML page (`index.html`)[@index-html] that serves as a link-in-bio resource
 hub for a Model Context Protocol talk at MeasureCamp Madrid 2025.
 
 ## Where to Start
